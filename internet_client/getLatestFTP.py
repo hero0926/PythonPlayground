@@ -9,6 +9,7 @@ DIRN = 'pub/mozilla.org/webtools'
 FILE = 'bugzilla=LATEST.tar.gz'
 
 def main() :
+
   try :
     f = ftplib.FTP(HOST)
   except (socket.error, socket.gaierror) as e :
@@ -22,10 +23,8 @@ def main() :
     print 'ERROR : cannot log in anonymously'
     f.quit()
     return
-
   print ' Logged in and anonymous '
-
-
+  
   try :
     f.cwd(DIRN)
   except ftplib.error_perm :
@@ -33,7 +32,6 @@ def main() :
     f.quit()
     return
   print ' Changed to %s folder' % DIRN
-
 
   try : 
     f.retrbinary('RETR%s' %FILE, open(FILE, 'wb').write)
@@ -43,6 +41,7 @@ def main() :
     os.unlink(FILE)
   else :
     print ' DOWNLOADED %s to CWD' % FILE
+
 f.quit()
 
 if __name__ == '__main__' :
