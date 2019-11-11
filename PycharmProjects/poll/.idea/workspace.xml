@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef3bd3d8-458b-47de-892e-184eef739e31" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/poll/templates/poll/results.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/poll/templates/poll/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/poll/templates/poll/detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/poll/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/poll/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/poll/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/poll/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,6 +19,12 @@
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/poll/static/poll/images" />
+      <recent name="$PROJECT_DIR$/poll/static/poll" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
