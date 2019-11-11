@@ -1,5 +1,5 @@
 from django.db import models
-
+from django.urls import reverse
 # Create your models here.
 class Bookmark(models.Model):
     site_name = models.CharField(max_length=100)
@@ -8,3 +8,6 @@ class Bookmark(models.Model):
 
     def __str__(self):
         return "site name : "+self.site_name+", url : "+self.url
+
+    def get_absolute_url(self):
+        return reverse('detail', args=[str(self.id)])
